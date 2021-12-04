@@ -28,3 +28,6 @@ function palindromecheck(checkstr){
 		return true;
 	}	
 }
+
+var c = ['MalayalaM','ModeM','redivider','Hello'].filter(numb => palindromecheck(numb));
+console.log(c);
